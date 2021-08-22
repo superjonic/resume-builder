@@ -7,18 +7,18 @@ import {
   FaMapMarkerAlt,
 
   // Interests
-  FaChessKnight,
+  FaMusic,
   FaReact,
-  FaRegCalendarCheck,
+  FaHamburger,
   FaBook,
-  FaRunning,
+  FaChartBar,
 } from 'react-icons/fa';
 
 const data = {
   /**
    * Full name
    */
-  fullName: 'Maciek Sitkowski',
+  fullName: 'Leandro Buzeta',
 
   /**
    * Summary - short "about me" paragraph
@@ -38,25 +38,25 @@ const data = {
     title: 'Contact',
     list: [
       {
-        text: 'macieksitkowski.com',
-        url: 'https://macieksitkowski.com',
+        text: 'superjonic.com',
+        url: 'https://superjonic.com',
         icon: <FaGlobe />,
       },
       {
-        text: 'github.com/sitek94',
-        url: 'https://github.com/sitek94',
+        text: 'github.com/superjonic',
+        url: 'https://github.com/superjonic',
         icon: <FaGithub />,
       },
       {
-        text: 'msitkowski94@gmail.com',
+        text: 'leandrobuzeta@gmail.com',
         icon: <FaEnvelope />,
       },
       {
-        text: '+00 123 456 789',
+        text: '+54 911 6804 4179  ',
         icon: <FaPhoneAlt />,
       },
       {
-        text: 'Warsaw, Poland',
+        text: 'Buenos Aires, Argentina',
         icon: <FaMapMarkerAlt />,
       },
     ],
@@ -66,11 +66,11 @@ const data = {
    * Key skills
    */
   keySkills: {
-    title: 'Key skills',
+    title: 'Tech skills',
     list: [
       { text: 'React, Redux, JSX' },
-      { text: 'JavaScript, D3.js' },
-      { text: 'Responsive Web Design' },
+      { text: 'JavaScript' },
+      { text: 'Node.js, Express' },
       { text: 'HTML5, CSS3' },
     ],
   },
@@ -79,25 +79,36 @@ const data = {
    * Additional skills
    */
   additionalSkills: {
-    title: 'Additional skills',
+    title: 'Business skills',
     list: [
-      { text: 'Node.js, Webpack' },
-      { text: 'OAuth, Firebase' },
-      { text: 'GitHub, Git' },
-      { text: 'REST, GraphQL' },
-      { text: 'Sass, CSS-in-JS' },
+      { text: 'Bussiness Strategy' },
+      { text: 'UX Focus' },
+      { text: 'Economic & Finance analysis' },
+      { text: 'Customer relationship' },
+      { text: 'Design & Lean Thinking'}
     ],
   },
 
+  humanSkills: {
+    title: 'Human skills',
+    list: [
+      { text: 'Leadership' },
+      { text: 'Brainstorming' },
+      { text: 'Team-worker' },
+      { text: 'Entrepreneur' },
+      { text: 'Icebreaker'},
+      { text: 'Multicultural Adaptation'}
+    ],
+  },
   /**
    * Languages I speak
    */
   languages: {
     title: 'Languages',
     list: [
-      { text: 'Polish - Native' },
+      { text: 'Spanish - Native' },
       { text: 'English - Fluent' },
-      { text: 'Spanish - Communicative' },
+      { text: 'Italian - Communicative' },
     ],
   },
 
@@ -107,11 +118,11 @@ const data = {
   interests: {
     title: 'Interests',
     list: [
-      { text: 'Playing chess', icon: <FaChessKnight /> },
+      { text: 'Music Composition', icon: <FaMusic /> },
       { text: 'Learning new things', icon: <FaReact /> },
-      { text: 'Building habits', icon: <FaRegCalendarCheck /> },
-      { text: 'Reading', icon: <FaBook /> },
-      { text: 'Being active', icon: <FaRunning /> },
+      { text: 'Eating Hamburguers', icon: <FaHamburger /> },
+      { text: 'Economic & War History', icon: <FaBook /> },
+      { text: 'Trading', icon: <FaChartBar /> },
     ],
   },
 
@@ -119,13 +130,14 @@ const data = {
     title: 'Projects',
     list: [
       {
-        name: 'Habit Tracker App',
+        name: 'The Gamer Cavern',
         techList: [
           'React',
-          'React Query',
-          'React Router',
-          'Firebase',
-          'Material-UI',
+          'Redux',
+          'Node.js, Express',
+          'PostgreSql',
+          'Sequelize',
+          'Pure CSS'
         ],
         description: `
           Habit Tracker is my final project for Harvard's CS50 course. It's 
@@ -153,24 +165,24 @@ const data = {
     title: 'Work experience',
     list: [
       {
-        company: 'Dolphin Bar & Restaurant',
-        location: 'Mallorca, Spain',
+        company: 'Cabify Fleet',
+        location: 'Buenos Aires, Argentina',
         date: {
-          start: '2018-05',
-          end: '2019-10',
+          start: '2017-05',
+          end: 'actual',
         },
-        jobTitle: 'Bartender/Waiter',
+        jobTitle: 'Business Manager',
         description: `
           Working in one of the busiest restaurants on the island I became 
           a better team player. Additionally it was a great opportunity to learn 
           Spanish and further improve my English.`,
       },
       {
-        company: 'Clothes2Order',
-        location: 'Manchester, United Kingdom',
+        company: 'Avans Corp S.A.S',
+        location: 'Bogota, Colombia',
         date: {
-          start: '2017-03',
-          end: '2018-05',
+          start: '2014-08',
+          end: '2016-03',
         },
         jobTitle: 'Customer Service Assistant',
         description: `
@@ -179,13 +191,13 @@ const data = {
           communication and collaboration skills.`,
       },
       {
-        company: 'Marks & Spencer',
-        location: 'Castle Donington, United Kingdom',
+        company: 'Henry Academy',
+        location: 'Buenos Aires, Argentina',
         date: {
-          start: '2015-12',
-          end: '2017-01',
+          start: '2021-08',
+          end: 'actual',
         },
-        jobTitle: 'Production Operative',
+        jobTitle: 'Teaching Assistant',
         description: `
           Working for the first time abroad and overcoming the challenges along 
           the road taught me how to quickly adapt to new environments.`,
@@ -200,12 +212,12 @@ const data = {
     title: 'Certificates',
     list: [
       {
-        name: 'CS50x: Introduction to Computer Science',
-        provider: 'Harvard University',
+        name: 'Full Stack Web Development',
+        provider: 'Henry Bootcamp',
       },
       {
-        name: 'Responsive Web Design Certification',
-        provider: ' freeCodeCamp',
+        name: 'HTML, CSS3 & Javascript',
+        provider: 'Educacion IT',
       },
       {
         name: 'Algorithms and Data Structures Certification',
@@ -229,13 +241,30 @@ const data = {
     title: 'Education',
     list: [
       {
-        institution: 'Warsaw University of Technology',
-        description: 'Architecture and Urban Planning',
+        institution: 'Henry Bootcamp',
+        description: 'Full Stack Web Development',
         date: {
-          start: '2014-09',
-          end: '2015-09',
+          start: '2021-03',
+          end: '2021-10',
         },
       },
+      {
+        institution: 'Educacion IT',
+        description: 'HTML, CSS3 & Javascript',
+        date: {
+          start: '2020-05',
+          end: '2020-06',
+        }
+      },
+      {
+        institution: 'UADE',
+        description: 'Finance',
+        date: {
+          start: '2017-05',
+          end: '2020-03',
+        }
+      },
+     
     ],
   },
 };

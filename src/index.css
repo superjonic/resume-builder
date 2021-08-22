@@ -43,7 +43,13 @@ body {
 
 .column.left {
   flex-basis: 30%;
-  border-right: 1px solid #ccc;
+  border-right: 1px solid rgb(14, 70, 92);
+  /* background-color:  rgb(69, 104, 90); */
+  background: linear-gradient(0.6turn, rgb(7, 10, 9), rgb(93, 121, 108));
+  color: white;
+}
+.column.left h3 {
+  color: white;
 }
 
 .column.right {
@@ -91,7 +97,7 @@ section:not(:last-child) {
 h2,
 h3,
 h4 {
-  color: #111;
+  color: rgb(8, 61, 48);
 }
 
 h2 {
@@ -138,6 +144,18 @@ p {
   font-style: italic;
   font-size: 13px;
 }
+/* ================================================================= */
+/* PROFILE IMG */
+/* ================================================================= */
+
+.pic{
+  display: flex;
+  justify-content: center;
+  width: 26vh;
+  height: 26vh;
+  border-radius: 3px;
+}
+
 
 /* ================================================================= */
 /* DETAILS */
@@ -146,7 +164,7 @@ p {
 .details h3 {
   font-size: 18px;
   font-weight: 500;
-  margin-bottom: 13px;
+  margin-bottom: 12px;
 }
 
 .details li {
@@ -164,17 +182,18 @@ p {
 /* ================================================================= */
 
 .full-name {
-  padding-bottom: 12.5px;
-  border-bottom: 1px solid #ccc;
-  margin-bottom: 12.5px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid rgb(24, 104, 77);
+  margin-bottom: 10px;
 }
 
 .full-name h1 {
   font-size: 42px;
-  font-weight: 400;
-  letter-spacing: 10px;
+  font-weight: 700;
+  letter-spacing: 5px;
   text-align: center;
   text-transform: uppercase;
+  color: rgb(7, 61, 78);
 }
 
 /* ================================================================= */
@@ -202,4 +221,11 @@ p {
 .education .header {
   display: flex;
   justify-content: space-between;
+}
+
+.grid{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
 }
