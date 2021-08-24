@@ -183,7 +183,7 @@ p {
 
 .full-name {
   padding-bottom: 12px;
-  border-bottom: 2px solid rgb(24, 104, 77);
+  border-bottom: 1px solid rgb(24, 104, 77);
   margin-bottom: 10px;
 }
 
@@ -194,6 +194,9 @@ p {
   text-align: center;
   text-transform: uppercase;
   color: rgb(7, 61, 78);
+}
+.full-name h3 {
+  text-align: center;
 }
 
 /* ================================================================= */

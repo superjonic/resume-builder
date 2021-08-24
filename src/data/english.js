@@ -24,11 +24,10 @@ const data = {
    * Summary - short "about me" paragraph
    */
   summary: {
-    title: 'Summary',
+    title: 'About',
     text: `
-      Front-end developer that has 1 year of experience developing web 
-      applications and building websites. Broadens his knowledge by actively 
-      contributing to Open Source projects.`,
+      Creative human with many energy capable to achieve and deliver, my channels to fill my spirit are Software Development & Entrepreneurship. The focus is always the same:  `,
+    strong: 'Build excellents products and experiences looking for adding value, impact and of course have fun.'   
   },
 
   /**
@@ -71,6 +70,7 @@ const data = {
       { text: 'React, Redux, JSX' },
       { text: 'JavaScript' },
       { text: 'Node.js, Express' },
+      { text: 'React Native' },
       { text: 'HTML5, CSS3' },
     ],
   },
@@ -108,7 +108,6 @@ const data = {
     list: [
       { text: 'Spanish - Native' },
       { text: 'English - Fluent' },
-      { text: 'Italian - Communicative' },
     ],
   },
 
@@ -162,7 +161,7 @@ const data = {
    * Acceptable date format: `YYYY-MM`
    */
   workExperience: {
-    title: 'Work experience',
+    title: 'Experience',
     list: [
       {
         company: 'Cabify Fleet',
