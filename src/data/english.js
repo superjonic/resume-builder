@@ -164,6 +164,17 @@ const data = {
     title: 'Experience',
     list: [
       {
+        company: 'Henry Academy',
+        location: 'Buenos Aires, Argentina',
+        date: {
+          start: '2021-08',
+          end: 'actual',
+        },
+        jobTitle: 'Teaching Assistant',
+        description: `Coordinate and guide students to achieve integration to the study group.
+          Assist to solve exercises and promote group collaboration (Pair Programming).`,
+      },
+      {
         company: 'Cabify Fleet',
         location: 'Buenos Aires, Argentina',
         date: {
@@ -171,10 +182,9 @@ const data = {
           end: 'actual',
         },
         jobTitle: 'Business Manager',
-        description: `
-          Working in one of the busiest restaurants on the island I became 
-          a better team player. Additionally it was a great opportunity to learn 
-          Spanish and further improve my English.`,
+        description: `Manage employees. Schedule, maintain, and track transport vehicles.
+        Negotiate with suppliers. Resolve disputes between drivers.
+          `,
       },
       {
         company: 'Avans Corp S.A.S',
@@ -183,24 +193,11 @@ const data = {
           start: '2014-08',
           end: '2016-03',
         },
-        jobTitle: 'Customer Service Assistant',
-        description: `
-          Being a part of Customer Service team and talking over the phone 
-          with clients from all around the world helped me improve both my 
-          communication and collaboration skills.`,
+        jobTitle: 'Co-Founder & International Sales Manager',
+        description: `Maintaining an efficient relationship with all international customers. Finding appropriate client for each product to ensure maximum profit. Coordinating with the sales and supply chain team to analyze the international market.
+          `,
       },
-      {
-        company: 'Henry Academy',
-        location: 'Buenos Aires, Argentina',
-        date: {
-          start: '2021-08',
-          end: 'actual',
-        },
-        jobTitle: 'Teaching Assistant',
-        description: `
-          Working for the first time abroad and overcoming the challenges along 
-          the road taught me how to quickly adapt to new environments.`,
-      },
+      
     ],
   },
 
