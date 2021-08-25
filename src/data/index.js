@@ -1,6 +1,6 @@
 import english from './english';
-import polish from './polish';
+import spanish from './spanish';
 
-const data = { english, polish };
+const data = { english, spanish };
 
 export default data;

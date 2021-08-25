@@ -26,8 +26,8 @@ const data = {
   summary: {
     title: 'About',
     text: `
-      Creative human with many energy capable to achieve and deliver, my channels to fill my spirit are Software Development & Entrepreneurship. The focus is always the same:  `,
-    strong: 'Build excellents products and experiences looking for adding value, impact and of course have fun.'   
+      Creative human with many energy capable to achieve and deliver results. My channels to fill my spirit are Software Development & Entrepreneurship. The focus is always the same:  `,
+    strong: ' Build excellents products and experiences looking for adding value, impact and of course have fun.'   
   },
 
   /**
@@ -81,10 +81,10 @@ const data = {
   additionalSkills: {
     title: 'Business skills',
     list: [
-      { text: 'Bussiness Strategy' },
+      { text: 'Business Strategy' },
       { text: 'UX Focus' },
       { text: 'Economic & Finance analysis' },
-      { text: 'Customer relationship' },
+      { text: 'Customer Relationship' },
       { text: 'Design & Lean Thinking'}
     ],
   },
@@ -117,10 +117,10 @@ const data = {
   interests: {
     title: 'Interests',
     list: [
-      { text: 'Music Composition', icon: <FaMusic /> },
-      { text: 'Learning new things', icon: <FaReact /> },
-      { text: 'Eating Hamburguers', icon: <FaHamburger /> },
-      { text: 'Economic & War History', icon: <FaBook /> },
+      { text: ' Music Composition', icon: <FaMusic /> },
+      { text: ' Learning new things', icon: <FaReact /> },
+      { text: ' Eating Hamburguers', icon: <FaHamburger /> },
+      { text: ' Economic & War History', icon: <FaBook /> },
       { text: 'Trading', icon: <FaChartBar /> },
     ],
   },

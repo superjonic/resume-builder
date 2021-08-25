@@ -27,7 +27,7 @@ export default function App() {
     <>
       <select onChange={e => setLanguage(e.target.value)}>
         <option value="english">English</option>
-        <option value="polish">Polish</option>
+        <option value="spanish">Spanish</option>
       </select>
 
       <div className="page">
@@ -42,7 +42,7 @@ export default function App() {
         </div>
 
         <div className="column right">
-          <FullName text={data.fullName} />
+          <FullName text={data.fullName} icon={data.interests} />
           <Summary data={data.summary} />
           <Projects data={data.projects} />
           <WorkExperience data={data.workExperience} />

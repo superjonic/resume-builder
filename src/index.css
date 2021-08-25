@@ -38,7 +38,8 @@ body {
 }
 
 .column {
-  padding: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .column.left {
@@ -47,6 +48,7 @@ body {
   /* background-color:  rgb(69, 104, 90); */
   background: linear-gradient(0.6turn, rgb(7, 10, 9), rgb(93, 121, 108));
   color: white;
+  padding-top:10px;
 }
 .column.left h3 {
   color: white;
@@ -199,6 +201,11 @@ p {
   text-align: center;
   color: rgb(7, 61, 78);
 }
+.full-name p {
+  text-align: right;
+  font-size: smaller;
+  color: rgb(24, 21, 192);
+}
 
 /* ================================================================= */
 /* WORK EXPERIENCE */
@@ -230,6 +237,10 @@ p {
 .grid{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  
+  justify-content: space-between;
+  font-size: 0.9em;
+  color: rgb(22, 18, 75);
+}
+.interests{
+  margin-top: -25px;  
 }
