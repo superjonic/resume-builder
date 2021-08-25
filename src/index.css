@@ -38,24 +38,25 @@ body {
 }
 
 .column {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 20px;
+  
 }
 
 .column.left {
   flex-basis: 30%;
-  border-right: 1px solid rgb(14, 70, 92);
-  /* background-color:  rgb(69, 104, 90); */
   background: linear-gradient(0.6turn, rgb(7, 10, 9), rgb(93, 121, 108));
   color: white;
   padding-top:10px;
+ 
 }
 .column.left h3 {
   color: white;
+  
 }
 
 .column.right {
   flex: 1;
+  padding-right: 20px;
 }
 
 /* ================================================================= */

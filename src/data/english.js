@@ -92,9 +92,8 @@ const data = {
   humanSkills: {
     title: 'Human skills',
     list: [
-      { text: 'Leadership' },
+      { text: 'Leadership, Team-worker' },
       { text: 'Brainstorming' },
-      { text: 'Team-worker' },
       { text: 'Entrepreneur' },
       { text: 'Icebreaker'},
       { text: 'Multicultural Adaptation'}
