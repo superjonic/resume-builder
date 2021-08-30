@@ -92,7 +92,9 @@ select {
 /* ================================================================= */
 /* REUSABLES */
 /* ================================================================= */
-
+.projects{
+  margin-top: -15px;
+}
 section:not(:last-child) {
   margin-bottom: 23px;
 }
@@ -216,6 +218,9 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+}
+.work-experience{
+  margin-top: -10px;
 }
 
 /* ================================================================= */

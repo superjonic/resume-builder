@@ -26,8 +26,8 @@ const data = {
   summary: {
     title: 'About',
     text: `
-      Full Stack Developer with creative skills capable of delivering high results and achieving timely deadlines. My channels to fill my spirit are Software Development & Entrepreneurship. The focus is always the same:  `,
-    strong: ' Build excellents products and experiences looking for adding value, impact and of course have fun.'   
+      Full Stack Developer with creative skills capable of delivering high results and achieving timely deadlines. The ways to find meaning in my work-life balance are Software Development & Entrepreneurship. The main goal is always the same:  `,
+    strong: ' To build excellent products and user experiences seeking to add value, impact and of course have fun.'   
   },
 
   /**
