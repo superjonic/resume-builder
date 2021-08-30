@@ -94,7 +94,7 @@ const data = {
     list: [
       { text: 'Leadership, Team-player' },
       { text: 'Brainstorming' },
-      { text: 'Entrepreneur, Proacitve' },
+      { text: 'Entrepreneur, Proactive' },
       { text: 'Icebreaker'},
       { text: 'Multicultural Adaptation'}
     ],
@@ -137,6 +137,7 @@ const data = {
           'Sequelize',
           'Pure CSS'
         ],
+        role: 'Full Stack Developer',
         description: `
           The Gamer Cavern is a project for Henry Bootcamp . It's 
           built as SPA and its core functionality is to show videogames, filter by categories connected from external API. Also it gives to user the option to create a new videogame`,
@@ -144,6 +145,7 @@ const data = {
       },
       {
         name: 'E-commerce Music Instruments',
+        role: 'Front End Developer',
         techList: ['MongoDB', 'Express', 'React', 'Node.js', 'Material-UI'],
         description: `
           This is an e-commerce thought as a marketplace. It uses a MERN stack and is a project with all funcionality : search, filter, post, buy, sell, reviews`,

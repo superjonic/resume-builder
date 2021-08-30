@@ -7,11 +7,12 @@ export default function Projects({ data }) {
     <section className="projects">
       <h2>{title}</h2>
       <ul>
-        {list.map(({ name, description, techList, url }) => (
+        {list.map(({ name, description, techList, url, role }) => (
           <li key={name}>
-            <Link to={url}>
+            <div className = "role">
               <h4>{name}</h4>
-            </Link>
+              <p>{role}</p>
+            </div>
             <p className="sm-border-bottom">{techList.join(' | ')}</p>
             <p>{description}</p>
           </li>

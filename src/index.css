@@ -203,6 +203,7 @@ p {
 .full-name h3 {
   text-align: center;
   color: rgb(7, 61, 78);
+  letter-spacing: 1px;
 }
 .full-name p {
   text-align: right;
@@ -249,4 +250,12 @@ p {
 }
 .interests{
   margin-top: -25px;  
+}
+.role {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.role p{
+  text-decoration: underline;
 }
