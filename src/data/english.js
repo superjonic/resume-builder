@@ -26,7 +26,7 @@ const data = {
   summary: {
     title: 'About',
     text: `
-      Creative human with many energy capable to achieve and deliver results. My channels to fill my spirit are Software Development & Entrepreneurship. The focus is always the same:  `,
+      Full Stack Developer with creative skills capable of delivering high results and achieving timely deadlines. My channels to fill my spirit are Software Development & Entrepreneurship. The focus is always the same:  `,
     strong: ' Build excellents products and experiences looking for adding value, impact and of course have fun.'   
   },
 
@@ -92,9 +92,9 @@ const data = {
   humanSkills: {
     title: 'Human skills',
     list: [
-      { text: 'Leadership, Team-worker' },
+      { text: 'Leadership, Team-player' },
       { text: 'Brainstorming' },
-      { text: 'Entrepreneur' },
+      { text: 'Entrepreneur, Proacitve' },
       { text: 'Icebreaker'},
       { text: 'Multicultural Adaptation'}
     ],
@@ -138,17 +138,15 @@ const data = {
           'Pure CSS'
         ],
         description: `
-          Habit Tracker is my final project for Harvard's CS50 course. It's 
-          built as MVP (minimal viable product) and its core functionality is to 
-          track user's habits.`,
+          The Gamer Cavern is a project for Henry Bootcamp . It's 
+          built as SPA and its core functionality is to show videogames, filter by categories connected from external API. Also it gives to user the option to create a new videogame`,
         url: 'https://habit-tracker.macieksitkowski.com/',
       },
       {
-        name: 'Pocket Globe App',
-        techList: ['React', 'D3.js', 'TopoJSON', 'Material-UI'],
+        name: 'E-commerce Music Instruments',
+        techList: ['MongoDB', 'Express', 'React', 'Node.js', 'Material-UI'],
         description: `
-          The app uses D3.js and React to create a highly interactive and responsive 
-          globe. It connects to various APIs to get data about selected country.`,
+          This is an e-commerce thought as a marketplace. It uses a MERN stack and is a project with all funcionality : search, filter, post, buy, sell, reviews`,
         url: 'https://sitek94.github.io/pocket-globe-app',
       },
     ],
