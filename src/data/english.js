@@ -67,10 +67,10 @@ const data = {
   keySkills: {
     title: 'Tech skills',
     list: [
-      { text: 'React, Redux, JSX' },
       { text: 'JavaScript' },
-      { text: 'Node.js, Express' },
+      { text: 'React, Redux, JSX' },
       { text: 'React Native' },
+      { text: 'Node.js, Express' },
       { text: 'HTML5, CSS3' },
     ],
   },
@@ -132,10 +132,11 @@ const data = {
         techList: [
           'React',
           'Redux',
-          'Node.js, Express',
+          'Node.js',
+          'Express',
           'PostgreSql',
           'Sequelize',
-          'Pure CSS'
+          'CSS Modules'
         ],
         role: 'Full Stack Developer',
         description: `
@@ -144,12 +145,12 @@ const data = {
         url: 'https://habit-tracker.macieksitkowski.com/',
       },
       {
-        name: 'E-commerce Music Instruments',
+        name: 'Amadeus E-commerce',
         role: 'Front End Developer',
-        techList: ['MongoDB', 'Express', 'React', 'Node.js', 'Material-UI'],
+        techList: ['MongoDB', 'Express', 'React','Redux', 'Node.js', 'Material-UI', 'Auth0'],
         description: `
-          This is an e-commerce thought as a marketplace. It uses a MERN stack and is a project with all funcionality : search, filter, post, buy, sell, reviews`,
-        url: 'https://sitek94.github.io/pocket-globe-app',
+          This is an e-commerce made for a music instruments store. It was developed with MERN stack. Customers can register easy and fast using their social media and buy in a safe way through MercadoPago API. Also it has an admin panel to control business, edit stock, administrate users and check buyings. `,
+        url: 'https://amadeus.vercel.app/',
       },
     ],
   },

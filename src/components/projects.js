@@ -15,6 +15,7 @@ export default function Projects({ data }) {
             </div>
             <p className="sm-border-bottom">{techList.join(' | ')}</p>
             <p>{description}</p>
+            
           </li>
         ))}
       </ul>
