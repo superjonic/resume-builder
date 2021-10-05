@@ -93,7 +93,7 @@ select {
 /* REUSABLES */
 /* ================================================================= */
 .projects{
-  margin-top: -15px;
+  margin-top: -3vh;
 }
 section:not(:last-child) {
   margin-bottom: 23px;
@@ -221,7 +221,7 @@ p {
   align-items: flex-end;
 }
 .work-experience{
-  margin-top: -10px;
+  margin-top: -2vh;
 }
 
 /* ================================================================= */
@@ -239,6 +239,9 @@ p {
 .education .header {
   display: flex;
   justify-content: space-between;
+}
+.education {
+  margin-top: -2vh;
 }
 
 .grid{
@@ -258,4 +261,8 @@ p {
 }
 .role p{
   text-decoration: underline;
+}
+
+.summary {
+  margin-top: -1vh;
 }

@@ -141,7 +141,7 @@ const data = {
         role: 'Full Stack Developer',
         description: `
           The Gamer Cavern is a project for Henry Bootcamp . It's 
-          built as SPA and its core functionality is to show videogames, filter by categories connected from external API. Also it gives to user the option to create a new videogame`,
+          built as SPA and its core functionality is to show and filter videogames, it is connected from external API.`,
         url: 'https://habit-tracker.macieksitkowski.com/',
       },
       {
